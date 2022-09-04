@@ -1,0 +1,830 @@
+body {
+    font-family: Nunito;
+}
+
+
+/******** Start Overriding Bootstrap ********/
+
+
+/*
+.loding-overly {
+    background: #222;
+    color: #FFF;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+*/
+
+
+/* Main Navbar */
+
+.navbar {
+    min-height: 70px;
+}
+
+
+/* Active Linke*/
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #F00;
+}
+
+
+/* Navbar Linke */
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #BBB;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 18px;
+}
+
+
+/* Brand Name*/
+
+.navbar-inverse .navbar-brand {
+    color: #bbb;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: cursive;
+}
+
+.navbar-inverse .navbar-brand span {
+    color: red;
+}
+
+.navbar-header i {
+    margin-right: -5px;
+}
+
+
+/* Dropdown Menu */
+
+.dropdown-menu {
+    background-color: #333;
+    border-top: 3px solid red;
+    min-width: 200px;
+    left: 0;
+    right: auto;
+}
+
+.dropdown-menu>li>a {
+    color: white;
+    padding: 6px 20px;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+    background-color: red;
+    color: white;
+    padding-left: 30px;
+}
+
+.dropdown-menu .divider {
+    background-color: #871818;
+    height: 3px;
+}
+
+
+/* Navbar Toggle */
+
+.navbar.toggle {
+    margin-top: 17px;
+}
+
+
+/**** Start carousel ****/
+
+.carousel {
+    height: 500px;
+}
+
+.carousel-inner img {
+    width: 100%;
+}
+
+.carousel .item .img-responsive {
+    height: 600px;
+}
+
+.carousel-caption {
+    font-size: 15px;
+    bottom: 61px;
+    background: rgb(0 0 0 / 70%);
+}
+
+.carousel-indicators {
+    display: none;
+}
+
+
+/**** Start About ****/
+
+.about {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.about .Lead {
+    color: #888;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.about h1 {
+    font-weight: bold;
+    font-size: 31px;
+}
+
+.about h1 span {
+    color: red;
+}
+
+
+/**** End About ***/
+
+
+/***** Start Section Features *****/
+
+.features {
+    background: #EEE;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.features h1 {
+    margin-bottom: 50px;
+}
+
+.features .feat p {
+    font-size: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    line-height: 2em;
+    color: #888;
+}
+
+.features .feat .glyphicon {
+    font-size: 27px;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+
+/***** End Section Features *****/
+
+
+/***** 
+
+.testimonials {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.testimonials h1 {
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.testimonials .lead {
+    line-height: 2em;
+    color: #b1b1b1;
+}
+
+.testimonials span {
+    font-size: 19px;
+    font-weight: bold;
+    color: red;
+    font-family: Nunito;
+}
+
+.carousel-indicators {
+    bottom: -54px;
+    z-index: 99999;
+}
+
+.testimonials .carousel-indicators li {
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    padding-top: 20px;
+}
+
+.testimonials .carousel-indicators li {
+    text-indent: 0;
+    width: 80px;
+    height: 80px;
+}
+
+.testimonials .carousel-indicators li img {
+    max-width: 100%;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+
+.testimonials .carousel-indicators li img :hover {
+    border-bottom: rgb(83, 83, 83);
+    border: 5px solid red;
+}
+
+
+ *****/
+
+
+/**** Start Section Price Table ****/
+
+.price_table {
+    background: #eee;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 60px;
+}
+
+.price_table .h1 {
+    margin-bottom: 50px;
+}
+
+.price_table .price_box {
+    background: #FFF;
+    padding: 10px;
+    border: 1px solid #DDD;
+    border-radius: 10%;
+}
+
+.price_box h2 {
+    margin: 5px 0 15px;
+}
+
+.price_table .price_box p {
+    font-size: 35px;
+    font-weight: bold;
+    color: #666;
+    width: 100px;
+    height: 100px;
+    background: rgb(245, 243, 243);
+    border-radius: 50%;
+    line-height: 100px;
+}
+
+.price_table .price_box:hover p {
+    -webkit-transition: scale(1, 1);
+    -moz-transition: scale(1, 1);
+    -o-transition: scale(1, 1);
+    transition: scale(1, 1);
+    box-shadow: 0 0 20px black;
+}
+
+.price_table .price_box ul {
+    line-height: 250%;
+    font-size: 18px;
+}
+
+.price_table .price_box a {
+    margin-bottom: 10px;
+}
+
+
+/**** End Section Price Table ****/
+
+
+/**** Start Our Awesmoe Team ****/
+
+.our_team {
+    background: url(img/gngA.jpg) no-repeat center center fixed;
+    width: 100%;
+    min-height: 600px;
+    background-size: cover;
+}
+
+.our_team .team {
+    background: rgba(2, 2, 2, 0.4);
+    color: #FFF;
+    min-height: 600px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 100px;
+}
+
+.hvr-wobble-skew {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    margin-bottom: 50px;
+}
+
+.our_team .team p {
+    color: rgb(230, 230, 230);
+    font-size: 23px
+}
+
+.our_team .team .h1:hover {
+    color: red;
+}
+
+.our_team .person {
+    margin-bottom: 40px;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 137px;
+}
+
+
+/**** End Our Awesmoe Team ****/
+
+
+/***** Start Section Subscribe *****/
+
+.subscribe {
+    padding-top: 40px;
+    padding-bottom: 100px;
+    background: rgb(240, 239, 239);
+    margin-bottom: 100px;
+}
+
+.subscribe .hvr-rectangle-out {
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    margin-left: -5%;
+    border: 3px solid rgb(1, 162, 184);
+    padding-left: 28px;
+    padding-right: 25px;
+}
+
+.subscribe p {
+    margin-bottom: 30px;
+    color: rgb(131, 130, 130);
+}
+
+.subscribe .form-control {
+    display: inline;
+    width: 300px;
+    height: 48px;
+    padding: 6px 12px;
+    font-size: 10px;
+    margin-left: 50px;
+    margin-right: -4px;
+    border-radius: 0;
+}
+
+.subscribe button {
+    border-radius: 0;
+    color: #000;
+}
+
+
+/***** End Section Subscribe *****/
+
+
+/***** Start Section Stats *****/
+
+.statistics {
+    background: url(bedroom/gng1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background: cover;
+    -moz-background: cover;
+    -o-background: cover;
+    background: cover;
+    min-height: 300px;
+}
+
+.statistics .data {
+    background-color: rgba(2, 2, 2, 0.7);
+    color: #B6B5B5;
+    min-height: 300px;
+    margin-top: 27px;
+    margin-bottom: 10px;
+    padding-top: 25px;
+}
+
+.statistics .stats {
+    margin-bottom: 30px;
+}
+
+.statistics .stats:hover {
+    color: #FFF;
+}
+
+.statistics .h1 {
+    margin-bottom: 50px;
+}
+
+.statistics p {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.statistics span {
+    font-size: 25px;
+}
+
+
+/***** End Section Stats *****/
+
+
+/***** Start Our Section Skills *****/
+
+.our-skills {
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+.our-skills .h1 {
+    padding-bottom: 50px;
+    font-weight: bold;
+}
+
+.our-skills h3 {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.our-skills p {
+    color: rgb(129, 129, 129);
+    font-size: 15px;
+}
+
+.our-skills .progress {
+    height: 36px;
+}
+
+.our-skills .progress-bar {
+    line-height: 36px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 10px;
+}
+
+
+/***** End Our Section Skills *****/
+
+
+/***** Start Section Cotact Us  *****/
+
+.contact-us {
+    background: url(bedroom/app.1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background: cover;
+    -moz-background: cover;
+    -o-background: cover;
+    background: cover;
+    min-height: 400px;
+}
+
+.contact-us .fields {
+    background: rgba(9, 9, 9, 0.6);
+    min-height: 400px;
+    color: #DDD;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.contact-us p {
+    margin-bottom: 40px;
+}
+
+.contact-us textarea {
+    height: 109px;
+    width: 100%;
+    background: rgba(82, 78, 78, 0.7);
+    color: #FFF;
+    border: none;
+}
+
+.contact-us .form-control {
+    background: rgba(82, 78, 78, 0.7);
+    color: #FFF;
+    border: none;
+}
+
+
+/***** End Section Cotact Us  *****/
+
+
+/***** Start Section Our Works *****/
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+    width: 100%;
+}
+
+.our-works {
+    padding: 100px 0;
+}
+
+.our-works span {
+    font-size: 50px;
+    margin-left: 4%;
+}
+
+.works img {
+    width: 70%;
+    height: 157px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5%;
+}
+
+.works h2 {
+    color: #111;
+    margin-top: -25px;
+}
+
+.works p {
+    color: #9c9c9c;
+    font-size: 15px;
+}
+
+.works img:hover {
+    -webkit-transition: scale(1, 1);
+    -moz-transition: scale(1, 1);
+    -o-transition: scale(1, 1);
+    transition: scale(1, 1);
+    box-shadow: 0 0 40px black;
+}
+
+
+/***** End Section Our Works *****/
+
+
+/***** Start Section Our Clients *****/
+
+.our_cliets {
+    background: #EEE;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.clients .h1 {
+    width: 325px;
+    margin-left: 1%;
+}
+
+.our_cliets .center-block {
+    opacity: 0, 4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    opacity: 0.3;
+    filter: alpha(opacity=70);
+    border-radius: 10%;
+}
+
+.our_cliets img {
+    width: 200px;
+    height: 130px;
+}
+
+.our_cliets .clients-sar {
+    border: 2px solid #000;
+    margin-bottom: 50px;
+    padding: 6px;
+}
+
+.our_cliets .clients-sar:hover {
+    color: red;
+    border: 2px solid #F00;
+    -webkit-transition: scale(1, 1);
+    -moz-transition: scale(1, 1);
+    -o-transition: scale(1, 1);
+    transition: scale(1, 1);
+    border-radius: 47%;
+    box-shadow: 0 0 30px red;
+}
+
+.our_cliets .center-block:hover {
+    opacity: 1;
+    -webkit-transition: scale(1, 1);
+    -moz-transition: scale(1, 1);
+    -o-transition: scale(1, 1);
+    transition: scale(1, 1);
+    box-shadow: 0 0 40px red;
+}
+
+
+/***** End Section Our Clients *****/
+
+
+/***** Start Ultimate Footer Section *****/
+
+.footer {
+    background: #333;
+    color: #AAA;
+    padding-top: 20px;
+}
+
+.footer a {
+    color: #AAA;
+}
+
+.footer a:hover {
+    color: #FFF;
+}
+
+.footer h3 {
+    color: #0895d1;
+    letter-spacing: 1px;
+    margin: 30px 0 20px;
+}
+
+.footer .three-columns {
+    overflow: hidden;
+}
+
+.footer .our-columns {
+    margin-top: 22px;
+}
+
+.footer .three-columns li {
+    width: 33.3333%;
+    float: left;
+    padding: 5px 0;
+}
+
+.footer .our-columns .social-list {
+    overflow: hidden;
+    margin: 20px 0 10px;
+}
+
+.footer i {
+    vertical-align: middle;
+    overflow: hidden;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    opacity: 0.3;
+    filter: alpha(opacity=70);
+}
+
+.footer i:hover {
+    opacity: 1;
+    -webkit-transition: scale(1, 1);
+    -moz-transition: scale(1, 1);
+    -o-transition: scale(1, 1);
+    transition: scale(1, 1);
+}
+
+.footer .our-columns .social-list {
+    overflow: hidden;
+    margin: 20px 0 10px;
+    background: #FFF;
+    width: 238px;
+    border-radius: 10px;
+}
+
+.footer .nav-bar-1 {
+    color: rgb(0, 60, 255);
+}
+
+.footer .nav-bar-2 {
+    color: red;
+}
+
+.footer .nav-bar-3 {
+    color: rgb(153, 0, 255);
+}
+
+.footer .nav-bar-4 {
+    color: rgb(232, 236, 0);
+}
+
+.footer .nav-bar-5 {
+    color: rgb(0, 140, 255);
+}
+
+.footer .media img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+.footer .awesome-work img {
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    background: #F16;
+    border: 0;
+}
+
+.footer .Our-work img {
+    float: left;
+    width: 150px;
+    height: 100px;
+}
+
+.footer .Our-Awesome img {
+    float: left;
+    width: 150px;
+    height: 100px;
+    background: #F16;
+    border: 0;
+}
+
+.copyright {
+    background: #111;
+    color: #AAA;
+    padding: 15px 0;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.copyright span {
+    color: #7489ff;
+}
+
+
+/***** End Ultimate Footer Section *****/
+
+
+/* Start New Section */
+
+.our-new {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.new h2 {
+    width: 100%;
+    height: 100px;
+    float: left;
+    background: rgb(240, 240, 240);
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    border: 1px solid yellow;
+}
+
+.new h2:hover {
+    box-shadow: 0 0 50px yellow;
+    -webkit-transition: scale(1, 1);
+    -moz-transition: scale(1, 1);
+    -o-transition: scale(1, 1);
+    transition: scale(1, 1);
+    border: 5px solid yellow;
+}
+
+.fa,
+.fas {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    margin-bottom: 11px;
+    margin-top: 11px;
+}
+
+.our-icons .fab {
+    color: red;
+    margin-top: 20px;
+}
+
+.our-icons .fac {
+    color: rgb(0, 140, 255);
+    margin-top: 20px;
+}
+
+.our-icons .fam {
+    color: rgb(0, 60, 255);
+    margin-top: 20px
+}
+
+
+/* End New Section */
+
+
+/* Start Our Grouping System */
+
+.contact-us,
+.our_cliets img,
+.works img,
+.our_cliets .clients-sar,
+.statistics .stats,
+.price_table .price_box p,
+.dropdown-menu>li>a,
+.our_team .team p,
+.new h2,
+.our_team .team .fam,
+.our_team .team .fab,
+.our_team .team .fac,
+.footer i {
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+
+
+/* End Our Grouping System */

@@ -1,0 +1,48 @@
+.services span {
+    color: white;
+    font-size: 60px;
+    font-family: Tahoma;
+    border-bottom: solid thin red;
+    position: absolute;
+    left: 40%;
+    z-index: 2;
+}
+
+.item {
+    width: 20%;
+    height: 100%;
+    color: white;
+    font-family: Tahoma;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 4%;
+    float: right;
+    position: relative;
+    float: left;
+}
+
+.logo1 {
+    width: 60px;
+    height: 40px;
+    background-color: red;
+    padding: 10px;
+    float: bottom;
+}
+
+
+/* Services */
+
+
+/* our-works */
+
+.our-work {
+    padding: 100px 0;
+}
+
+.our-works span {
+    color: red;
+}
+
+
+/* our-works */
